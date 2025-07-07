@@ -1,0 +1,14 @@
+.main-container{
+    
+}
+.hero-section{
+    height: 600px;
+    width: 100vw;
+    background-color: red;
+}
+.hero-section img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
