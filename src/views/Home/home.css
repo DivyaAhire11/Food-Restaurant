@@ -2,7 +2,7 @@
 .hero-section{
     height: 500px;
     width: 100%;
-    background-color: rgb(0, 0, 0);  
+    background-color: rgb(30, 20, 20);  
     display: flex;
     justify-content:center;
     align-items: center;
@@ -11,7 +11,7 @@
     height: 100%;
     width: 100%;
     object-fit:fill;
-    opacity: 0.6;
+    opacity: 0.7;
 }
 .hero-Details{
     height: 300px;
@@ -26,7 +26,7 @@
 }
 .main-heading{
     font-size: 4rem;
-    color: white;
+    color: rgb(255, 255, 255);
     text-transform: capitalize;
     font-weight: 400;
     letter-spacing: 2px;
@@ -44,4 +44,17 @@
 }
 .btn:hover{
     border: 1px solid rgb(179, 179, 179);
+}
+.categories{
+    height: 80vh;
+    width: 100vw;
+    background-color: rgb(18, 18, 18);
+    display: flex;
+    align-items: center;
+}
+.burger{
+    height: 450px;
+    width: 450px;
+    object-fit: cover;
+    
 }
