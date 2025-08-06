@@ -9,11 +9,11 @@
 }
 .navbar-heading{
     font-size: 3rem;
-    color: white;
+    /* color: white; */
 }
 .Menu-list{
      display: flex;
-     color: white;
+     /* color: white; */
      gap: 20px;
      margin: auto;
      cursor: pointer;
