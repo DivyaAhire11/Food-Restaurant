@@ -3,19 +3,27 @@ import Navbar from '../../Components/Navbar/Navbar'
 import gulabjamun from '../../assets/gulabjamun.webp'
 import vadaRecipe from "../../assets/vadaRecipe.jpg"
 import Khamang from "../../assets/Khamang.webp"
+import Bhel from "../../assets/Bhel.png"
+import mixVeg from "../../assets/mixVeg.png"
 
 import "./home.css"
 
 const Home = () => {
   return (
    <>  
-         {/* <img src= {gulabjamun} alt="dish" className='gulabJamun'/>      */}
+       
        
         <div className="hero-section">
            <Navbar/> 
-           {/* <img src={vadaRecipe} alt='vadarecipies' className='vadarecipies'/> */}
-           {/* <img src={food1} alt="main" /> */}
-           <img src ={Khamang} />
+         
+
+           <img src={Bhel} alt ="Bhel" className='bhel'/> 
+           <img src={mixVeg} alt ="mixVeg" className='mixveg'/> 
+           
+           <div className='block1'></div>
+           <div className='block2'></div>
+           <div className='block3'></div>
+          
           <div className='hero-Details'>
                
                <h1 className="main-heading">best food for <br/> your taste</h1>
@@ -28,7 +36,7 @@ const Home = () => {
         </div>
 
           <div className="categories">
-           
+               
           </div>
 
 

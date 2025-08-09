@@ -1,16 +1,21 @@
 .navbar{
     height: 50px;
     width: 100%;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.295);
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.295); */
     display: flex;
     position: absolute;
     top: 0;
-    z-index: 11;
+    z-index: 11; 
+    padding-top: 10px;
 }
 .navbar-heading{
+    height: 100%;
+    width: 100px;
+    display: flex;
     font-size: 3rem;
-    /* color: white; */
+    gap:10px ;
 }
+  
 .Menu-list{
      display: flex;
      /* color: white; */
@@ -21,4 +26,22 @@
 
 .Menu-list li:hover{
    color: rgb(255, 196, 0);
+}
+.Foody-icon{
+    height: 100%;
+    width: 240px;
+    /* background-color: red; */
+   
+    /* position: relative; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* gap: 20px; */
+}
+.chef{
+    height: 100px;
+    width: 90px;
+    object-fit: cover;
+    margin : 5px;
+   
 }
