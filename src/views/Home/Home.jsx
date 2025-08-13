@@ -34,7 +34,7 @@ const Home = () => {
       </div>
 
       <div className='MenuItem'>
-           <MenuProduct/>
+        <MenuProduct />
       </div>
     </>
   )
