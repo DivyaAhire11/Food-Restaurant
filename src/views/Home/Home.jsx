@@ -2,13 +2,14 @@ import React from 'react'
 import Navbar from '../../Components/Navbar/Navbar'
 import Bhel from "../../assets/Bhel.png"
 import mixVeg from "../../assets/mixVeg.png"
+import MenuProduct from '../Menu/MenuProduct.jsx'
 
 import "./home.css"
+
 
 const Home = () => {
   return (
     <>
-
 
       <div className="hero-section">
         <Navbar />
@@ -32,12 +33,9 @@ const Home = () => {
 
       </div>
 
-      <div className="categories">
-       
+      <div className='MenuItem'>
+           <MenuProduct/>
       </div>
-
-
-
     </>
   )
 }
