@@ -94,7 +94,7 @@ body::-webkit-scrollbar {
 .main-heading {
     font-size: 4rem;
     text-transform: capitalize;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: 2px;
 }
 
@@ -127,4 +127,21 @@ body::-webkit-scrollbar {
     height: 700px;
     width: 100%;
     background-color: rgba(33, 0, 36, 0.546);
+}
+
+@media screen and (max-width : 700px) {
+
+    .hero-Details{
+        height: 350px;
+        width: 300px;
+        color: rgb(203, 203, 203);
+    }
+     .btn{
+        color: rgb(210, 210, 210);
+        font-size: 20px;
+     }
+    .main-heading {
+        font-size: 3rem;
+    }
+    
 }

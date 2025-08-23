@@ -13,7 +13,8 @@ const Navbar = () => {
       <div className='navbar'>
         <div className='Foody-icon'>
           <img src={chef} alt="chef" className='chef' />
-          <span className='navbar-heading'> Food <img src={healthyfood} /></span>
+          <span className='navbar-heading'> Ⓕⓞⓞⓓ <img src={healthyfood} /></span>
+          
         </div>
         <ul type="none" className={`Menu-list ${isOpen ? 'open' : ''}`}>
           <li>Home</li>
