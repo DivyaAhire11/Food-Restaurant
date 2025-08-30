@@ -1,5 +1,5 @@
 import React from "react";
-import ProductCard from "../ProductCard/ProductCard.jsx"; // Reuse ProductCard for layout
+import ProductCard from "../ProductCard/ProductCard.js"; // Reuse ProductCard for layout
 
 const CategoryGrid = ({ categories, onCategoryClick }) => {
   return (

@@ -1,3 +1,4 @@
+/* Container */
 .MenuItem {
     height: 700px;
     width: 100%;
@@ -10,13 +11,52 @@
   padding: 2rem 1rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
-
 }
+
+/* Title */
 .menu-title {
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 1rem;
   color: #33070b;
-  
 }
 
+/* Loading */
+.menu-loading {
+  font-size: 1.2rem;
+  color: #457b9d;
+  margin: 1rem 0;
+}
+
+/* Empty message */
+.menu-empty {
+  font-size: 1rem;
+  color: #777;
+  margin-top: 2rem;
+}
+
+/* Grid Layout (can also be reused in CategoryGrid and MealGrid) */
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* Subtitle for MealGrid */
+.menu-subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 1.5rem 0;
+  color: #457b9d;
+}
+
+/* Optional: responsive spacing */
+@media (max-width: 768px) {
+  .menu-container {
+    padding: 1.5rem 0.5rem;
+  }
+  .menu-title {
+    font-size: 1.7rem;
+  }
+}

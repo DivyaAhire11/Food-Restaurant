@@ -1,5 +1,5 @@
 import React from "react";
-import ProductCard from "../ProductCard/ProductCard.jsx"; // Reuse ProductCard
+import ProductCard from "../ProductCard/ProductCard.js"; // Reuse ProductCard
 import Btn from "../Button/Btn.jsx";
 
 const MealGrid = ({ meals, categoryName, onBackClick }) => {
@@ -19,10 +19,6 @@ const MealGrid = ({ meals, categoryName, onBackClick }) => {
 
 <Btn info="⬅ Back to Categories" onClick={onBackClick} className="menu-back-btn" />
 
-
-      {/* <button className="menu-btn back-btn" onClick={onBackClick}>
-        
-      </button> */}
     </div>
   );
 };
