@@ -22,7 +22,7 @@ const Navbar = () => {
           <li>Menu </li>
           <li>Shop </li>
           <li>Blog</li>
-          <li>Contact</li>
+         
         </ul>
         <div className='menuLine' onClick={toggleMenu}>
           ☰

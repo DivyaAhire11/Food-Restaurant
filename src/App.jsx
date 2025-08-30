@@ -6,7 +6,12 @@ function App() {
   return (
     <>
        <div className="main-container">
-           <Home/>   
+           <Home/>
+           {/* <About/>
+           <Menu/>
+           <Shop/>
+           <Blog/>
+           <Contact/>    */}
        </div>
     
     </>
