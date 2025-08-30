@@ -1,0 +1,16 @@
+/*  Grid Layout */
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+.menu-desc {
+  font-size: 0.9rem;
+  color: #555;
+}
+.menu-card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}

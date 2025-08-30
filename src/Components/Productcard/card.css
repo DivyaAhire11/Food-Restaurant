@@ -1,0 +1,32 @@
+
+/*  Product & Category Card */
+.menu-card {
+  /* background: white; */
+  border-radius: 15px;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+}
+
+.menu-card:hover {
+  background-color: #adadad4a;
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(238, 238, 238, 0.15);
+}
+
+.menu-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 0.8rem;
+}
+
+.menu-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+  color: #1d3557;
+}
+
