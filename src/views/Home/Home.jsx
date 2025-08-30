@@ -30,9 +30,9 @@ const Home = () => {
         </div>
       </div>
 
-       <div className='MenuItem'>
+       {/* <div className='MenuItem'>
         <MenuProduct />
-      </div> 
+      </div>  */}
     </>
   );
 };
